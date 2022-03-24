@@ -1,0 +1,44 @@
+@import url(fonts/font-face.css);
+
+html, body{margin: 0;padding: 0;overflow-x: hidden;font-size: 14px; font-family: Roboto-light;}
+h1, nav,div{margin:0;padding: 0;}
+h2,h3,h4,h5,h6{font-family: Roboto-Medium;}
+
+
+$bg-header: rgb(8, 117, 190);
+$color-text: #fff;
+header{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 7em;
+    background: $bg-header;
+    h1{
+        font-family: Roboto-Black;
+        margin-left: 1em;
+        a{
+            text-decoration: none;
+            color:$color-text;
+            a:visite{
+                color:$color-text;
+            }
+        }
+    }
+}
+
+footer{
+    height: 8em;
+    background: #000;
+    padding-top: 2em;
+    padding-left: 2em;
+    h2{
+        color: $color-text;
+    }
+    div{
+        span{
+            position:absolute;
+            left: 80%;
+            color: $color-text;
+        }
+    }
+}

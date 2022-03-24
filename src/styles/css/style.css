@@ -1,0 +1,53 @@
+@import url(fonts/font-face.css);
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-family: Roboto-light;
+}
+
+h1, nav, div {
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Roboto-Medium;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 7em;
+  background: #0875be;
+}
+header h1 {
+  font-family: Roboto-Black;
+  margin-left: 1em;
+}
+header h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+header h1 a a:visite {
+  color: #fff;
+}
+
+footer {
+  height: 8em;
+  background: #000;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+footer h2 {
+  color: #fff;
+}
+footer div span {
+  position: absolute;
+  left: 80%;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,155 @@
+main{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    .nav_article{
+        background: red;
+        width: 20vw;
+    }
+    .Ejer{
+        padding: 1em;
+        width: 80vw;
+        margin: 3em 1em;
+        .mayor-menor-igual{
+            margin: 0 1em;
+        }
+        input::placeholder{
+            color: #000;
+        }
+        button{
+            color:white;
+            background: #03e;
+            outline: none;
+            border: none;
+            padding: 1em 2em;
+            &:hover{
+                background: #07d;
+            }
+        }
+    }
+    
+    .content_btn{
+         display: inline-block;
+         padding: 4em;
+         border-right: 2px solid #1118;
+    }
+    .content_inp{
+         display: inline-block; 
+         padding: 4em;
+         .Resultado{
+             height: 3em;
+             width: 100%;
+             background: #3333;
+             margin-bottom: 1em;
+             text-align: center;
+             padding: .7em 0;
+         }
+         input{
+             height: 2.5em;
+         }
+    }
+    .content_only{
+        position: absolute;
+        margin-top: -2.5em;
+        .Resultado{
+            padding: 1em 4em;
+            width: 25em;
+            height: 6em;
+        }
+        .parValidation{
+            display: inline-block;
+            background: #ccc;
+            width: 5em;
+            height: 3em;
+            text-align: center;
+            margin: 0 2em;
+        }
+        .imparValidation{
+            display: inline-block;
+            background: #ccc;
+            width: 5em;
+            height: 3em;
+            text-align: center;
+        }
+    }
+    
+    .Ejer_8{
+        margin-bottom: 4em;
+        .Resultado{
+            margin-top: -1em;
+            position: relative;
+            height: 14.5em;
+            width: 14em;
+            padding: 1em;
+        }
+    }
+    .content_calculator{
+        display: inline-block;
+        position: absolute;
+        width: 30em;
+        p{
+            margin-bottom: -.8em;
+            margin-left: 1.5em;
+        }
+    }
+    .content_lateral{
+        width: 30em;
+        display: inline-block;
+        position: absolute;
+        padding: 1em;
+        .Resultado{
+            width: 30em;
+            height: 12em;
+        }
+        .btnControl{
+            width: 100%;
+            span{
+                display: inline-block;
+                padding: 1em 1.5em;
+                margin: .1em;
+                color: #fff;
+                cursor: pointer;
+            }
+            .normal{
+                background: #049;
+                &:hover{
+                    background: #04e;
+                }
+            }
+            .orden{
+                background: #160;
+                &:hover{
+                    background: #1a0;
+                }
+            }
+            .invertir{
+                background: #eab90d;
+                color: #222;
+                &:hover{
+                    background: #ffcd1f;
+                }
+            }
+        }
+    }
+    .Ejer_11{
+        .content_btn{
+            border: none;
+            input{
+                &::placeholder{
+                    color: #2228;
+                }
+            }
+        }
+        .content_lateral{
+            width: 40em;
+            height: 20em;
+            background: #7774;
+            padding: 1em;
+            .Resultado{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+}

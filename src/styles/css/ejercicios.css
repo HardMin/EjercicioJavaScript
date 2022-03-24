@@ -1,0 +1,150 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+main .nav_article {
+  background: red;
+  width: 20vw;
+}
+main .Ejer {
+  padding: 1em;
+  width: 80vw;
+  margin: 3em 1em;
+}
+main .Ejer .mayor-menor-igual {
+  margin: 0 1em;
+}
+main .Ejer input::placeholder {
+  color: #000;
+}
+main .Ejer button {
+  color: white;
+  background: #03e;
+  outline: none;
+  border: none;
+  padding: 1em 2em;
+}
+main .Ejer button:hover {
+  background: #07d;
+}
+main .content_btn {
+  display: inline-block;
+  padding: 4em;
+  border-right: 2px solid #1118;
+}
+main .content_inp {
+  display: inline-block;
+  padding: 4em;
+}
+main .content_inp .Resultado {
+  height: 3em;
+  width: 100%;
+  background: #3333;
+  margin-bottom: 1em;
+  text-align: center;
+  padding: 0.7em 0;
+}
+main .content_inp input {
+  height: 2.5em;
+}
+main .content_only {
+  position: absolute;
+  margin-top: -2.5em;
+}
+main .content_only .Resultado {
+  padding: 1em 4em;
+  width: 25em;
+  height: 6em;
+}
+main .content_only .parValidation {
+  display: inline-block;
+  background: #ccc;
+  width: 5em;
+  height: 3em;
+  text-align: center;
+  margin: 0 2em;
+}
+main .content_only .imparValidation {
+  display: inline-block;
+  background: #ccc;
+  width: 5em;
+  height: 3em;
+  text-align: center;
+}
+main .Ejer_8 {
+  margin-bottom: 4em;
+}
+main .Ejer_8 .Resultado {
+  margin-top: -1em;
+  position: relative;
+  height: 14.5em;
+  width: 14em;
+  padding: 1em;
+}
+main .content_calculator {
+  display: inline-block;
+  position: absolute;
+  width: 30em;
+}
+main .content_calculator p {
+  margin-bottom: -0.8em;
+  margin-left: 1.5em;
+}
+main .content_lateral {
+  width: 30em;
+  display: inline-block;
+  position: absolute;
+  padding: 1em;
+}
+main .content_lateral .Resultado {
+  width: 30em;
+  height: 12em;
+}
+main .content_lateral .btnControl {
+  width: 100%;
+}
+main .content_lateral .btnControl span {
+  display: inline-block;
+  padding: 1em 1.5em;
+  margin: 0.1em;
+  color: #fff;
+  cursor: pointer;
+}
+main .content_lateral .btnControl .normal {
+  background: #049;
+}
+main .content_lateral .btnControl .normal:hover {
+  background: #04e;
+}
+main .content_lateral .btnControl .orden {
+  background: #160;
+}
+main .content_lateral .btnControl .orden:hover {
+  background: #1a0;
+}
+main .content_lateral .btnControl .invertir {
+  background: #eab90d;
+  color: #222;
+}
+main .content_lateral .btnControl .invertir:hover {
+  background: #ffcd1f;
+}
+main .Ejer_11 .content_btn {
+  border: none;
+}
+main .Ejer_11 .content_btn input::placeholder {
+  color: #2228;
+}
+main .Ejer_11 .content_lateral {
+  width: 40em;
+  height: 20em;
+  background: #7774;
+  padding: 1em;
+}
+main .Ejer_11 .content_lateral .Resultado {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=ejercicios.css.map */
